@@ -1,0 +1,9 @@
+#cloud-config	
+
+hostname: $HOSTNAME	
+fqdn: $HOSTNAME	
+timezone: Europe/London	
+manage_etc_hosts: true	
+	
+runcmd:	
+- yum update -y	
